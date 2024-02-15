@@ -12,6 +12,7 @@ if n < 2:
     quit()
 elif n == 2:
     print("Це  просте число")
+def is_power_of_five(num):
 # Визначаємо , чи є число степенем 5
 def is_power_of_five(num):
     power = 0
@@ -41,4 +42,5 @@ if is_power_of_two(number):
     print(f"{number} є степенем 2")
 else:
     print(f"{number} не є степенем 2")
+
 
